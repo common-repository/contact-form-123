@@ -1,0 +1,206 @@
+textarea {
+  width: 80%;
+  resize: none;
+}
+
+
+.content {
+  text-align: center;
+}
+
+button {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+}
+
+button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+button:focus {
+  outline: none !important
+}
+
+.blue_btn {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.overlay_popup {
+  display:none;
+  position:fixed;
+  z-index: 999;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  background:#000;
+  opacity:0.5;
+}
+
+.popup {
+  display: none;
+  position: relative;
+  z-index: 1000;
+  margin:0 25% 0 25%;
+  width:50%;
+}
+
+.object{
+  width: 500px;
+  height: 500px;
+  background-color: #eee;
+  padding: 50px 70px;
+}
+.messagepop{
+  margin-top: 20px;
+  background-color: white;
+}
+
+#error_message{
+border: 1px solid green;
+  width:40%;
+  border-radius: 25px;
+}
+
+
+/* close link */
+#close{
+  font-size: 16px;
+}
+
+/* black color scheme */ 
+#form_email_black{
+  border:1px solid black;
+  height:40px;
+  width:80%;
+}
+#form_body_black{
+  border:1px solid black;
+    height:120px; width:80%;
+}
+
+#message_submit_black{
+  width:80%;   height: 40px;
+  color: #FFFFFF;
+    background-color:  black;
+    border-radius: 15px;
+}
+/* green color scheme */ 
+#form_email_green{
+  border:1px solid green;
+  height:40px;
+  width:80%;
+}
+#form_body_green{
+  border:1px solid green;
+    height:120px; width:80%;
+}
+
+#message_submit_green{
+  width:80%;   height: 40px;
+  color: black;
+    background-color: #1E6018;
+    border-radius: 15px;
+}
+
+/* blue color scheme */ 
+#form_email_blue{
+  border:1px solid #5050E0;
+  height:40px;
+  width:80%;
+}
+#form_body_blue{
+  border:1px solid #5050E0;
+    height:120px; width:80%;
+}
+
+#message_submit_blue{
+  width:80%;   height: 40px;
+  color: black;
+    background-color: #5050E0;
+    border-radius: 15px;
+}
+
+/* red color scheme */ 
+#form_email_red{
+  border:1px solid #FF2D2D;
+  height:40px;
+  width:80%;
+}
+#form_body_red{
+  border:1px solid #FF2D2D;
+    height:120px; width:80%;
+}
+
+#message_submit_red{
+  width:80%;   height: 40px;
+  color: black;
+    background-color: #FF2D2D;
+    border-radius: 15px;
+}
+
+/* yellow color scheme */ 
+#form_email_yellow{
+  border:1px solid #B7AA1B;
+  height:40px;
+  width:80%;
+}
+#form_body_yellow{
+  border:1px solid #B7AA1B;
+    height:120px; width:80%;
+}
+
+#message_submit_yellow{
+  width:80%;   height: 40px;
+  color: black;
+    background-color: #B7AA1B;
+    border-radius: 15px;
+}
+
+
+/* yellow color scheme */ 
+#form_email_orange{
+  border:1px solid orange;
+  height:40px;
+  width:80%;
+}
+#form_body_orange{
+  border:1px solid orange;
+    height:120px; width:80%;
+}
+
+#message_submit_orange{
+  width:80%;   height: 40px;
+  color: black;
+    background-color: orange;
+    border-radius: 15px;
+}
+/* yellow color scheme */ 
+#form_email_gray{
+  border:1px solid #585858;
+  height:40px;
+  width:80%;
+}
+#form_body_gray{
+  border:1px solid #585858;
+    height:120px; width:80%;
+}
+
+#message_submit_gray{
+  width:80%;   height: 40px;
+  color: white;
+    background-color: #585858;
+    border-radius: 15px;
+}
+
